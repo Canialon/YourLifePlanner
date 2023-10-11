@@ -9,16 +9,24 @@ import ToDoList from './Pages/ToDoList';
 
 function App() {
   return (
-    <Router>
-      <SideMenu/>
-      <Routes>
-        <Route path='/home' element={<Home/>}/>
-        <Route path='/calendar' element={<Calendar/>}/>
-        <Route path='/todolist' element={<ToDoList/>}/>
-        <Route path='/today' element={<Today/>}/>
-      </Routes>
-    </Router>
+      <Router>
+          <div className="app-container">
+            <div className='sidemenucontainer'>
+              <SideMenu />
+            </div>
+              <div className="content">
+                  <Routes>
+                      <Route path='/home' element={<Home />} />
+                      <Route path='/calendar' element={<Calendar />} />
+                      <Route path='/todolist' element={<ToDoList />} />
+                      <Route path='/today' element={<Today />} />
+                  </Routes>
+              </div>
+              
+          </div>
+      </Router>
   );
 }
+
 
 export default App;

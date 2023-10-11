@@ -1,4 +1,8 @@
-.text   {
+ .pagecontect{
+    background-color: rgba(0, 51, 3, 0.664);
     font-size: 30px;
-    text-align: center;
+    flex-wrap: wrap;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    
 }
