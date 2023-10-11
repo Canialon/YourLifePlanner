@@ -1,4 +1,17 @@
-.page{
-    font-size: 30px;
-    text-align: center;
+body {
+    background-image: url('./assets/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+    display: flex;
+    flex-direction: row;
+}   
+.app-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidemenucontainer {
+    width: 235px;
 }

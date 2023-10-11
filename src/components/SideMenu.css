@@ -1,0 +1,39 @@
+.sidemenublock {
+    background-color: rgba(0, 51, 3, 0.339);
+    width: 235px;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    top: 50%; 
+    transform: translateY(-50%);
+    min-height: calc(100% - 40px);
+}
+.sidemenubutton {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.547);
+    padding-bottom: 10  px;
+    font-family: 'Courier New', monospace;
+}
+
+.sidemenubutton.active {
+    background-color: #fff9ab18;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.sidemenubutton:hover {
+    background-color: #ebff3330;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.iconClass{
+    margin-right: 10px;
+}
